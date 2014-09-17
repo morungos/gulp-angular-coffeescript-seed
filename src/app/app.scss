@@ -1,0 +1,52 @@
+@import "styles/_base";
+
+html, body {
+  height: 100%;
+  font-weight: 300;
+}
+
+.page-wrap {
+  min-height: 100%;
+}
+
+.page-wrap .page-main {
+  overflow:auto;
+  padding-bottom:60px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -30px; /* negative value of footer height */
+  height: 60px;
+  clear:both;
+  padding-top:10px;
+} 
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.inline-nav {
+  list-style-type: none;
+}
+
+.inline-nav li {
+  display: inline;
+}
+
+.inline-nav .inline-last:after {
+  content: ""; 
+}
+
+.inline-nav li:last-child:after {
+  content: ""; 
+}
+
+.inline-nav li:after {
+  content: " | "; 
+}
+
+.auth-link {
+  cursor: pointer;
+}
