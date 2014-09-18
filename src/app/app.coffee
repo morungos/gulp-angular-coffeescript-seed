@@ -1,7 +1,6 @@
 angular.module 'webapp', [
   'ui.bootstrap'
   'ui.router'
-  'webapp.auth'
   'webapp.header'
   'webapp.pages'
   'webapp-templates'
